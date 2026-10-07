@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trishula-dataflow"
+version = "1.0.0"
+description = "Sovereign operator-based pipeline for LLM data preparation, cleaning, and synthetic dataset synthesis."
+authors = [{name = "Trishula Software", email = "trishulasoftware@gmail.com"}]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0.0"
+]
